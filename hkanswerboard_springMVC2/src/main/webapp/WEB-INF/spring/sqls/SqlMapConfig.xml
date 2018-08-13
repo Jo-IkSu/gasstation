@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+<configuration>
+	<!--  sql_mapper.xml에서 사용하게 될 결과나 파라미터를 담을 객체를 정의 	 -->
+  	<typeAliases>
+  		<typeAlias type="com.hk.ansboard.dtos.AnsDto" alias="AnsDto"/>
+  	</typeAliases>
+  	
+	<!-- 쿼리를 작성할 xml파일 위치 설정 -->
+  	<mappers>
+  		<mapper resource="/sqls/ansboard_mapper.xml"/>
+  	</mappers>
+</configuration>
