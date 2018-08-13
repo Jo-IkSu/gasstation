@@ -9,5 +9,6 @@
 <body>
 <a href="boardlist.do">글목록보기</a>
 <a href="test.do">테스트</a>
+<a>테스트 라구요</a>
 </body>
 </html>
